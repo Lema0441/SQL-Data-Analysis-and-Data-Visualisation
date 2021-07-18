@@ -30,7 +30,7 @@ ORDER BY 2 DESC;
 
 
 Question 2
-Now we need to know how the length of rental duration of these family-friendly movies compares to the duration that all movies are rented for. Can you provide a table with the movie titles and divide them into 4 levels (first_quarter, second_quarter, third_quarter, and final_quarter) based on the quartiles (25%, 50%, 75%) of the rental duration for movies across all categories? Make sure to also indicate the category that these family-friendly movies fall into.
+Now we need to know how the length of rental duration of these family-friendly movies compares to the duration that all movies are rented for.Â Can you provide a table with the movie titles and divide them into 4 levels (first_quarter, second_quarter, third_quarter, and final_quarter) based on the quartiles (25%, 50%, 75%) of the rental duration for movies across all categories?Â Make sure to also indicate the category that these family-friendly movies fall into.
 SELECT  s.standard_quartile as quratile,
            s.name as category,
           COUNT(*) as rental_duration
